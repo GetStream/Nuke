@@ -188,6 +188,7 @@ final class OperationThreadSafetyTests: XCTestCase {
     }
 }
 
+/*
 final class RandomizedTests: XCTestCase {
     func testImagePipeline() {
         let dataLoader = MockDataLoader()
@@ -262,6 +263,7 @@ final class RandomizedTests: XCTestCase {
         }
     }
 }
+*/
 
 private func _request(index: Int) -> ImageRequest {
     return ImageRequest(url: URL(string: "http://example.com/img\(index)")!)
